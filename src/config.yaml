@@ -6,6 +6,8 @@ init: false
 url: "https://github.com/Dielee/volvo2mqtt"
 apparmor: true
 codenotary: notary@home-assistant.io
+hassio_api: true
+homeassistant_api: true
 services:
   - 'mqtt:need'
 map: 
